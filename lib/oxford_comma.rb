@@ -1,9 +1,11 @@
 def oxford_comma(array)
   array.each do |value|
   
-   if array.length == 3
-     array.join " and "
+   if value == value[2]
+     value.join "and"
     end
   end
+  return array
 end
 
+oxford_comma(array)
