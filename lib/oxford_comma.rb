@@ -1,11 +1,11 @@
 def oxford_comma(array)
+  new_array=[]
   array.each do |value|
   
-   if value == value[2]
-     value.join "and"
+   if value == array[2]
+     puts "nesto"
     end
   end
-  return array
 end
 
 oxford_comma(["fiddleheads","okra","kohlrabi"])
