@@ -6,6 +6,9 @@ def oxford_comma(array)
     array.join ("and")
     
      else 
+      lastStr = array.pop
+      array.join(", ") << ", and #{lastStr}"
+   end
+end
 end
 
-oxford_comma(["fiddleheads","okra","kohlrabi"])
