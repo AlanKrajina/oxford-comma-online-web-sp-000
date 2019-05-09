@@ -1,4 +1,5 @@
 def oxford_comma(array)
   array[2]="and kohlrabi"
-  array.join ","
+  new_array=array.join ","
+  return new_array
 end
